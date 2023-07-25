@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulaire de Contact</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff; /* Pastel Blue */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #20b2aa; /* Light SeaGreen */
+      }
+
+      form {
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        color: #008080; /* Teal */
+      }
+
+      input[type="text"] {
+        width: 300px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      input[type="submit"] {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #5f9ea0; /* Cadet Blue */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #4682b4; /* Steel Blue */
+      }
+
+      .message {
+        color: #008000; /* Green */
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulaire de Contact</h1>
+      <p>
+        Remplissez le formulaire ci-dessous pour nous contacter. Nous vous
+        recontacterons sous 1 jour ouvré.
+      </p>
+      <form method="post">
+        <label for="email">Email :</label>
+        <input type="text" name="email" id="email" required />
+        <br />
+        <input type="submit" value="Envoyer" />
+      </form>
+    </div>
+  </body>
+</html>
